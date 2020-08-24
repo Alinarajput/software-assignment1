@@ -24,3 +24,37 @@ Shan He, Ralf Lämmel, Erik Meijer, Silvia Sapora, and Justin Spahr-Summers. 202
 [2]	Ralf Lämmel, Alvin Kerber, and Liane Praza. 2020. Understanding What Software Engineers Are Working on – The Work-Item Prediction Challenge. In Proceedings of the 28th IEEE/ACM International Conference on Program Comprehension (ICPC Industry Track). IEEE / ACM. 
  
 
+
+
+
+
+
+
+02) Testing of Mobile Applications in the Wild: A Large-Scale Empirical Study on Android Apps By: Dario Di Nucci 
+ 
+Nowadays, mobile applications (a.k.a., apps) are employed by over two billion users for each sort of need, including social and emergency connectivity. Their pervasiveness in today’s world has inspired the software testing research community in devising approaches to permit developers to raised test their apps and improve the standard of the tests being developed. In spite of this attempt , we still notice a scarcity of empirical studies aiming at assessing the particular quality of test cases developed by mobile developers: this attitude could provide evidence-based findings on the present status of testing within the wild also as on the longer term research directions within the field. As such, we performed a large-scale empirical study targeting 1,780 open-source Android apps and aiming at assessing (1) the extent to which these apps are literally tested, (2) how welldesigned are the available tests, and (3) what's their effectiveness. The key results of our study show that mobile developers still tend to not properly test their apps. Furthermore, we discovered that the test cases of the considered apps have a coffee (i) design quality, both in terms of test code metrics and test smells, and (ii) effectiveness when considering code coverage also as assertion density. 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+03) Knowledge Transfer in Modern Code Review 
+By: Hironori Washizaki 
+ 
+Knowledge transfer is one among the most goals of recent code review, as shown by several studies that surveyed and interviewed developers. While knowledge transfer may be a clear expectation of the code review process, there are not any analytical studies using data mined from software repositories to assess the effectiveness of code review in “training” developers and improve their skills over time. We present a mining-based study investigating how and whether the code review process helps developers to enhance their contributions to open source projects over time. We analyze 32,062 peer-reviewed pull requests (PRs) made across 4,981 GitHub repositories by 728 developers who created their GitHub account in 2015. We assume that PRs performed within the past by a developer D that are subject to a code review process have “transferred knowledge” to D. Then, we verify if over time (i.e., when more and more reviewed PRs are made by D), the standard of the contributions made by D to open source projects increases (as assessed by proxies we defined, like the acceptance of PRs, or the polarity of the sentiment within the review comments left for the submitted PRs). With the above measures, we were unable to capture the positive impact played by the code review process on the standard of developers’ contributions. This could be thanks to several factors, including the alternatives we made in our experimental design. 
+Additional investigations are needed to verify or contradict such a negative result. 
+ 
+
